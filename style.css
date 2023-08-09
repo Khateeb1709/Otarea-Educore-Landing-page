@@ -78,8 +78,8 @@ nav {
   height: 742px;
 }
 
-.hero-text{
-  margin-left: 20px;
+.hero-text {
+  margin-left: 0px;
 }
 .hero-text > h1 {
   color: #184655;
@@ -117,7 +117,7 @@ nav {
 
 #hero-input {
   border: none;
-  padding: 25px 20px;
+  padding: 20px 20px;
   flex: 2;
   color: #727272;
   font-family: Poppins;
@@ -127,10 +127,8 @@ nav {
   outline: none;
 }
 
-
 #hero-btn {
   flex: 1;
-  border-radius: 0px 19px 19px 0px;
   background: #184655;
   color: #fff;
   text-align: center;
@@ -141,3 +139,56 @@ nav {
   border: none;
   cursor: pointer;
 }
+
+.main-card {
+  height: 462px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 25px 20px;
+  background-image: linear-gradient(to right, #fdf8f1, #e7fcef);
+  align-items: center;
+}
+
+.main-card-img {
+  height: 100%;
+}
+.main-card-img > img {
+  height: 95%;
+  width: 40vw;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+
+.mc-description-div {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 95%;
+}
+
+.mc-description-div > h1 {
+  color: #404040;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight:600;
+}
+
+.author-and-date {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(111, 110, 110, 0.84);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.main-card-description{
+color: #464343;
+font-family: Roboto;
+font-size: 26px;
+font-weight: 400;
+}
+
+
