@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&family=Mada&family=Poppins&family=Roboto&family=Rubik&display=swap");
+/* @import url('https://fonts.cdnfonts.com/css/segoe-ui-4'); */
 
 * {
   margin: 0px;
@@ -85,7 +86,7 @@ nav {
   color: #184655;
   font-family: Poppins;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 60px;
   margin: 15px;
 }
@@ -155,8 +156,8 @@ nav {
   height: 100%;
 }
 .main-card-img > img {
-  height: 95%;
-  width: 40vw;
+  height: 100%;
+  width: 35vw;
   border-radius: 15px;
   margin-right: 30px;
 }
@@ -164,7 +165,7 @@ nav {
 .mc-description-div {
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-evenly;
   height: 95%;
 }
 
@@ -172,7 +173,7 @@ nav {
   color: #404040;
   font-family: Roboto;
   font-size: 32px;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .author-and-date {
@@ -180,15 +181,127 @@ nav {
   justify-content: space-between;
   color: rgba(111, 110, 110, 0.84);
   font-family: Roboto;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 
-.main-card-description{
-color: #464343;
-font-family: Roboto;
-font-size: 26px;
-font-weight: 400;
+.main-card-description {
+  color: #464343;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.card-div {
+  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(
+    146deg,
+    rgba(249, 247, 247, 0.1) 0%,
+    rgba(249, 247, 247, 0.4) 100%
+  );
+  box-shadow: 0px 2px 20px -1px rgba(0, 0, 0, 0.25);
+  width: 431.532px;
+  margin: 15px;
+}
+
+.card-img > img {
+  width: 431.532px;
+  height: 272.614px;
+  border-radius: 20px;
+}
+
+.card-texts {
+  padding: 20px;
+}
+
+.card-texts > h3 {
+  color: #4a4848;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.author-and-date-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(111, 110, 110, 0.84);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card-texts > p {
+  color: #464343;
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.read-more {
+  text-align: right;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.read-more > a {
+  color: #213949;
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 707px;
+  border-radius: 30px;
+  background: linear-gradient(136deg, #f4f3f4, #dbe8e6);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+}
+
+.download-heading {
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.application-name {
+  font-family: Roboto;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.application-moto {
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.download-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 23.5px;
+  background: linear-gradient(122deg, #2c56aa 0%, #3bb08b 100%);
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 5px 15px;
+  margin-top: 70px;
+}
