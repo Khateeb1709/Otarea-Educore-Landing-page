@@ -1,4 +1,4 @@
-# Responsive Web Page – F1-C2-July Project
+# Responsive Web Page – Education App Landing page Project
 
 A responsive multi-section webpage built using HTML and CSS. This project focuses on layout design, content structure, and responsive styling across devices.
 
